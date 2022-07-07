@@ -1,4 +1,4 @@
-
+import React from "react";
 const parentComp=()=>{
     return(
        <div></div> 
@@ -26,3 +26,4 @@ const FullComp =({name, message})=>{
         </>
     )
 }
+export default FullComp                                                                                         

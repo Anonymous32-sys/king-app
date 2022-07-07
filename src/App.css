@@ -49,6 +49,14 @@ li{
   .hamburger{
     display: block;
   }
+  nav {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    background-color: gray;
+  }
   ul{
     flex-direction: column;
     position: absolute;
@@ -58,4 +66,8 @@ li{
     background-color: gray;
     display: none;
   }
+  .navbar{
+    display: none;
+  }
 }
+
