@@ -1,20 +1,18 @@
 import "./App.css"
 import "./app.scss"
 import "./grid.scss"
-import { Link, Routes } from "react-router-dom"
 import { Head } from "./component/Head"
-import { Route } from "react-router-dom"
-import Routed from "./component/p"
+import Slideshow from "./component/test"
+
+
+
+
 function App() {
     return (
         <div className="App">
-<Head/>
-<div>
-<Routes>
-    
-</Routes>
-</div>
-            </div>
+      <Head/>
+      <Slideshow/>
+        </div>
     )
 }
 export default App;
