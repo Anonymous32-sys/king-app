@@ -3,6 +3,9 @@ import "../../src/component/Head.scss"
 import { Link } from "react-router-dom"
 import { IconName } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+
 const Li = (props) => (
     <li><a href="">{props.name}</a></li>
 )
@@ -12,7 +15,7 @@ export class Head extends React.Component {
         super();
         this.state = {
             names: [
-                'Phones',
+                'Mobile Phones',
                 'Home Appliances',
                 'Electronics',
                 'Ascessories',
@@ -56,24 +59,24 @@ export class Head extends React.Component {
             }
         }
     }
-
     render() {
 
         return (
             <>
+            <div id="cover">
                 <h3 className="Yellow"><span>MEG</span>-ELECTS</h3>
                 <div id="Link">
-                    <Link to="/">Shop</Link>
-                    <Link to="">Product</Link>
+                   <h5 id="aria"><Link to="/">Shop</Link></h5> 
+                   <h5 id="soft"><Link to="">Product</Link></h5>
                     </div>
                     <select name="Category">
-                        <option data-count="2" value="Category">Category</option>
-                        <option data-count="2" value="Phones">Phones</option>
-                        <option data-count="23" value="Home Appliances">Home Appliances</option>
-                        <option data-count="433" value="Electronics">Electronics</option>
-                        <option data-count="45" value="Ascessories">Ascessories</option>
-                        <option data-count="476" value="Jewelry">Jewelry</option>
-                        <option data-count="78" value="Tools">Tools</option>
+                        <Link to=""><option  value="Category">Category</option></Link>
+                        <option  value="Phones">Phones</option>
+                        <option  value="Home Appliances">Home Appliances</option>
+                        <option value="Electronics">Electronics</option>
+                        <option  value="Ascessories">Ascessories</option>
+                        <option  value="Jewelry">Jewelry</option>
+                        <option  value="Tools">Tools</option>
                     </select>
                 
                 <div id="myDIV">
@@ -89,6 +92,9 @@ export class Head extends React.Component {
                         ))
                     }
                     </ul>
+                </div>
+                <strong><FaRegHeart/></strong>
+                <div id="cart"><FaShoppingCart/>{""}</div>
                 </div>
             </>
         )

@@ -1,0 +1,102 @@
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+body {
+  background-color: #4D4D4D;
+  height: 100%;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  height: 500px;
+  width: 100%;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 10px;
+  width: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+
+button {
+  background: #E78A00;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+}
+
+.Stone {
+  background-color: white;
+}
+
+e {
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #E78A00;
+}
+
+#names1 {
+  width: 180px;
+  height: 24px;
+  /* margin-left: 85px;
+  margin-top: 2166px; */
+
+  /* font-style: normal;
+  font-weight: 400; */
+  font-size: 18px;
+  line-height: 117.68%;
+  /* or 21px */
+
+
+  color: #222222;
+}
+#des1{
+  /* position: absolute; */
+width: 180px;
+height: 24px;
+/* font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400; */
+font-size: 18px;
+line-height: 117.68%;
+/* or 21px */
+
+
+color: #222222;
+}
+#price1{
+    /* position: absolute; */
+width: 180px;
+height: 24px;
+/* font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400; */
+font-size: 18px;
+line-height: 117.68%;
+/* or 21px */
+
+
+color: #222222;
+}
