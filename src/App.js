@@ -7,6 +7,7 @@ import List from "./component/LIst"
 import Phone from "./component/Phone"
 import { Routes,Route } from "react-router-dom"
 import Apps from "./component/Appd"
+import Comp from "./component/Computer"
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <List />
         <Routes>
                     <Route path="/Phone" element={<Phone/>}/>
+                    <Route path="/Apps" element={<Apps/>}/>
                     <Route path="/Apps" element={<Apps/>}/>
                 </Routes>
       </div>
