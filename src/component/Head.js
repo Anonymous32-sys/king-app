@@ -1,13 +1,12 @@
 import React from "react"
 import "../../src/component/Head.scss"
 import { Link } from "react-router-dom"
-import { IconName } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Li = (props) => (
-    <li><a href="">{props.name}</a></li>
+    <li>{props.name}</li>
 )
 
 export class Head extends React.Component {
@@ -70,7 +69,7 @@ export class Head extends React.Component {
                    <h5 id="soft"><Link to="">Product</Link></h5>
                     </div>
                     <select name="Category">
-                        <Link to=""><option  value="Category">Category</option></Link>
+                        <Link to="/Phones"><option  value="Category">Category</option></Link>
                         <option  value="Phones">Phones</option>
                         <option  value="Home Appliances">Home Appliances</option>
                         <option value="Electronics">Electronics</option>
