@@ -3,8 +3,9 @@
   overflow: hidden;
   max-width: 1000px;
 }
-body{
-  background-color:#4D4D4D ;
+
+body {
+  background-color: #4D4D4D;
   height: 100%;
 }
 
@@ -15,9 +16,10 @@ body{
 
 .slide {
   display: inline-block;
-  height:500px;
+  height: 500px;
   width: 100%;
 }
+
 /* Buttons */
 
 .slideshowDots {
@@ -26,8 +28,8 @@ body{
 
 .slideshowDot {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 10px;
+  width: 8px;
   border-radius: 50%;
   cursor: pointer;
   margin: 15px 7px 0px;
@@ -44,11 +46,57 @@ button {
   height: 50px;
   width: 150px;
 }
-.Stone{
+
+.Stone {
   background-color: white;
 }
-e{
+
+e {
   text-decoration: underline;
   text-decoration-thickness: 6px;
   text-decoration-color: #E78A00;
+}
+
+#names1 {
+  width: 180px;
+  height: 24px;
+  /* margin-left: 85px;
+  margin-top: 2166px; */
+
+  /* font-style: normal;
+  font-weight: 400; */
+  font-size: 18px;
+  line-height: 117.68%;
+  /* or 21px */
+
+
+  color: #222222;
+}
+#des1{
+  /* position: absolute; */
+width: 180px;
+height: 24px;
+/* font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400; */
+font-size: 18px;
+line-height: 117.68%;
+/* or 21px */
+
+
+color: #222222;
+}
+#price1{
+    /* position: absolute; */
+width: 180px;
+height: 24px;
+/* font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400; */
+font-size: 18px;
+line-height: 117.68%;
+/* or 21px */
+
+
+color: #222222;
 }

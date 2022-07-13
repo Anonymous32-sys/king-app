@@ -4,6 +4,10 @@ import "./grid.scss"
 import { Head } from "./component/Head"
 import Slideshow from "./component/test"
 import List from "./component/LIst"
+import Phone from "./component/Phone"
+import { Routes,Route } from "react-router-dom"
+import Apps from "./component/Appd"
+
 
 
 
@@ -18,6 +22,10 @@ function App() {
       </div>
       <div className="Stone">
         <List />
+        <Routes>
+                    <Route path="/Phone" element={<Phone/>}/>
+                    <Route path="/Apps" element={<Apps/>}/>
+                </Routes>
       </div>
     </>)
 }

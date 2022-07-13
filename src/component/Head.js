@@ -15,7 +15,7 @@ export class Head extends React.Component {
         super();
         this.state = {
             names: [
-                'Phones',
+                'Mobile Phones',
                 'Home Appliances',
                 'Electronics',
                 'Ascessories',

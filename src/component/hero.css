@@ -8,3 +8,6 @@
 .thumb {
     border-radius: 1em;
 }
+#link-icons{
+    display: flex;
+}
