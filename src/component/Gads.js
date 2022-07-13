@@ -1,12 +1,12 @@
 import React from "react";
-import Appmap from "./Appliances";
-const Apps =()=>{
+import Gadger from "./gadget";
+const Gadgets = () =>{
     return(
         <>
-            {Appmap.map((item)=>{
+            {Gadger.map((item)=>{
                 return(
                     <>
-                        <h2>{item.names}</h2>
+                    <h2>{item.names}</h2>
                         <h2>{item.names1}</h2>
                         <h2>{item.names2}</h2>
                         <h2>{item.description}</h2>
@@ -15,14 +15,13 @@ const Apps =()=>{
                         <h2>{item.Price}</h2>
                         <h2>{item.Price1}</h2>
                         <h2>{item.Price2}</h2>
-                        <img src={item.image} alt=""/>
-                        <img src={item.image1} alt=""/>
-                        <img src={item.image2} alt=""/>
-                    </>
+                        <img src={item.image}/>
+                        <img src={item.image1}/>
+                        <img src={item.image2}/>
+                        </>
                 )
-            }
-            )}
+            })}
         </>
     )
 }
-export default Apps
+export default Gadgets

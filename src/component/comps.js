@@ -12,9 +12,9 @@ return(
                         <h2>{item.description}</h2>
                         <h2>{item.description1}</h2>
                         <h2>{item.description2}</h2>
-                        <h2>{item.Price}</h2>
-                        <h2>{item.Price1}</h2>
-                        <h2>{item.Price2}</h2>
+                        <h4>{item.Price}</h4>
+                        <h4>{item.Price1}</h4>
+                        <h4>{item.Price2}</h4>
                         <img src={item.image}/>
                         <img src={item.image1}/>
                         <img src={item.image2}/>

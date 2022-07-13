@@ -37,9 +37,9 @@ function Slideshow() {
                         <h6 id="item-subtext">{item.subtext}</h6>
                         <h1 id="item-other1">{item.other1}</h1>
                         <h3 id="item-subtext2">{item.subtext2}</h3>
-                        <img id="img-url1" src={item.img_url1}/>
-                        <img id="img-url2" src={item.img_url2}/>
-                        <img id="img-url" src={item.img_url}/>
+                        <img id="img-url1" src={item.img_url1} alt=""/>
+                        <img id="img-url2" src={item.img_url2} alt=""/>
+                        <img id="img-url" src={item.img_url} alt=""/>
                         <button>Shop Now <FaShoppingCart/></button>
                     </div>
                 )

@@ -57,7 +57,7 @@ e {
   text-decoration-color: #E78A00;
 }
 
-#names1 {
+/* #names1 {
   width: 180px;
   height: 24px;
   /* margin-left: 85px;
@@ -65,38 +65,38 @@ e {
 
   /* font-style: normal;
   font-weight: 400; */
-  font-size: 18px;
-  line-height: 117.68%;
+  /* font-size: 18px;
+  line-height: 117.68%; */
   /* or 21px */
 
 
-  color: #222222;
+  /* color: #222222;
 }
-#des1{
+#des1{ */
   /* position: absolute; */
-width: 180px;
-height: 24px;
+/* width: 180px;
+height: 24px; */
 /* font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400; */
-font-size: 18px;
-line-height: 117.68%;
+/* font-size: 18px;
+line-height: 117.68%; */
 /* or 21px */
 
 
-color: #222222;
+/* color: #222222;
 }
-#price1{
+#price1{ */
     /* position: absolute; */
-width: 180px;
-height: 24px;
+/* width: 180px;
+height: 24px; */
 /* font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400; */
-font-size: 18px;
+/* font-size: 18px;
 line-height: 117.68%;
-/* or 21px */
+or 21px */
 
 
-color: #222222;
-}
+/* color: #222222;
+} */

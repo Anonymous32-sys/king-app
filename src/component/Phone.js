@@ -15,9 +15,9 @@ const Phone = () =>{
                 <h4 id="price1">{item.Price}</h4>
                 <h4 id="price2">{item.Price1}</h4>
                 <h4 id="price3">{item.Price2}</h4>
-                <img id="img" src={item.image}/>
-                <img id="img1" src={item.image1}/>
-                <img id="img2" src={item.image2}/>
+                <img id="img" src={item.image} alt=""/>
+                <img id="img1" src={item.image1} alt=""/>
+                <img id="img2" src={item.image2} alt=""/>
             </div>
         )
     })}
