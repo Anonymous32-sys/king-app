@@ -1,13 +1,6 @@
 import React from "react";
 import Appmap from "./Appliances";
 import { FaShoppingCart } from "react-icons/fa";
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
 function Ariel() {
   document.getElementById('id01').style.display = 'block'
 }
@@ -36,7 +29,7 @@ const Apps = () => {
           <div className="container">
             <h4>Silver Crest 5000W German Industrial Food Crusher & Blender + Extra Mill Jar</h4>
             <h6>Price: "₦ 21,800"</h6>
-            <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/2267121/1.jpg?1279" />
+            <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/2267121/1.jpg?1279" alt=""/>
             <div class="clearfix">
               <button type="button" onClick={Ariel2} className="cancelbtn">Cancel</button>
               <button type="submit" className="signupbtn">Add to cart<FaShoppingCart /></button>
