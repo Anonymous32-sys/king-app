@@ -8,7 +8,7 @@ export default function Product(props) {
             <h3>{product.description}</h3>
             <div>${product.price}</div>
             <div>
-                <button onClick={}>Add to Cart</button>
+                <button>Add to Cart</button>
             </div>
         </div>
     </>
