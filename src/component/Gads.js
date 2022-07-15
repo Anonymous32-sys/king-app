@@ -15,9 +15,9 @@ const Gadgets = () =>{
                         <h2>{item.Price}</h2>
                         <h2>{item.Price1}</h2>
                         <h2>{item.Price2}</h2>
-                        <img src={item.image}/>
-                        <img src={item.image1}/>
-                        <img src={item.image2}/>
+                        <img src={item.image} alt=""/>
+                        <img src={item.image1} alt=""/>
+                        <img src={item.image2} alt=""/>
                         </>
                 )
             })}

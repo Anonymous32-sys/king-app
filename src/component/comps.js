@@ -15,9 +15,9 @@ return(
                         <h4>{item.Price}</h4>
                         <h4>{item.Price1}</h4>
                         <h4>{item.Price2}</h4>
-                        <img src={item.image}/>
-                        <img src={item.image1}/>
-                        <img src={item.image2}/>
+                        <img src={item.image} alt=""/>
+                        <img src={item.image1} alt=""/>
+                        <img src={item.image2} alt=""/>
                 </>
             )
         })}

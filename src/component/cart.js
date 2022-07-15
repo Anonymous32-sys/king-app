@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 import { FaSearch } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-
 const Li = (props) => (
     <li>{props.name}</li>
 )
@@ -93,9 +92,21 @@ export class Head extends React.Component {
                     </ul>
                 </div>
                 <strong><FaRegHeart/></strong>
-                {/* <div id="cart"><FaShoppingCart/>{""}</div> */}
+                
                 </div>
             </>
         )
     }
+}
+export default function Header(props){
+    const {countCartItems} =props;
+    return(
+        <>
+                <Link to='/Basket'><div id="cart"><FaShoppingCart/>{""} {countCartItems ? (
+                        <button className="badge">{countCartItems}</button>
+                    ) : (
+                        ''
+                    )}</div>{''}</Link>
+        </>
+    )
 }
