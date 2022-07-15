@@ -6,16 +6,16 @@ const Appmap = [
         image: "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/2267121/1.jpg?1279"
     },
     {
-        names1:"Silver Crest 6L Silver Crest Air Fryer",
-        description1:"",
-        Price1:"₦ 29,000",
-        image1:"https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/75/328018/1.jpg?9912"
+        names:"Silver Crest 6L Silver Crest Air Fryer",
+        description:"",
+        Price:"₦ 29,000",
+        image:"https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/75/328018/1.jpg?9912"
     },
     {
-        names2: "Power Deluxe 1.5LTR PDB-8231-U Electric Blender",
-        description2: "",
-        Price2: "₦ 7,568",
-        image2: "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/40/5442231/1.jpg?9408"
+        names: "Power Deluxe 1.5LTR PDB-8231-U Electric Blender",
+        description: "",
+        Price: "₦ 7,568",
+        image: "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/40/5442231/1.jpg?9408"
     }
 ]
 export default Appmap
