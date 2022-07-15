@@ -4,8 +4,7 @@ import {Link} from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa';
 
 
-export default function Trending(props) {
-    const {products , onAdd} = props;
+export default function Trending() {
     return(
         <div className='trend'>
             <h2>Trending</h2>
@@ -20,7 +19,7 @@ export default function Trending(props) {
                                 <h3>{item.name}</h3>  
                                 <p>{item.price}</p>
                                 </Link>                        
-                                <button className='btn'  onClick={()=>onAdd(item)}>Add to cart <FaShoppingCart/></button> 
+                                <button className='btn'>Add to cart <FaShoppingCart/></button> 
                             </div>
                             )
                                             }

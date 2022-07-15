@@ -3,7 +3,6 @@ import "../../src/component/Head.scss"
 import { Link } from "react-router-dom"
 import { FaSearch } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
 
 const Li = (props) => (
     <li>{props.name}</li>

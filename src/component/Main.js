@@ -1,9 +1,8 @@
 import React from "react"
-import Appmap from "./Appliances";
 import productItems from "./Topselling";
 
 export default function Main(props) {
-    const { products , onAdd } = props;
+    const {  onAdd } = props;
     return (
         <>
             <main className="block col-2 trend">

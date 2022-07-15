@@ -1,7 +1,6 @@
 import "./App.css"
 import "./app.scss"
 import "./Meg.scss"
-
 import { Head } from "./component/Head"
 import Slideshow from "./component/test"
 import List from "./component/LIst"
@@ -16,7 +15,6 @@ import Basket from "./component/Basket"
 import Appmap from "./component/Appliances"
 import { useState } from "react"
 import Topselling from "./component/Top"
-import TopSingle from "./component/Topsingle"
 import Footer from "./component/MegFoot"
 import Trending from "./component/Trending"
 
