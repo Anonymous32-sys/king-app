@@ -11,7 +11,7 @@ const List = () => {
                  <Link to="/Phone" className="active"><h4><AiOutlineMobile/>Mobile Phone</h4></Link>
                  <Link to="/Computers" className="active"><h4><RiComputerLine />Computers</h4></Link>
                  <Link to="/Gadgets" className="active"><h4><BsHeadphones />Gadgets</h4></Link>
-                 <hr className='hrm'></hr> 
+                
                 </div>
         </>
     )
