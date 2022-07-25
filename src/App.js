@@ -1,11 +1,16 @@
 import "./App.css"
-import Navbar from "./component/Navbar";
+import "./app.scss"
+import "./Port.css"
+import Portfolio from "./component/Portfolio"
 
-function App(){
-    return(
-    <div className="App" id="App">
-    <Navbar/>
-    </div>
+
+
+
+function App() {
+    return (
+        <div className="App">
+<Portfolio/>
+        </div>
     )
 }
 export default App;
