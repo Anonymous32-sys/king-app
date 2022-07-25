@@ -1,0 +1,138 @@
+*{
+    background-color: #100F12;
+}
+.Yellow {
+    position: absolute;
+    width: 171px;
+    height: 23px;
+    left: 74px;
+    top: 47px;
+
+    font-family: 'Eremitage';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 23px;
+}
+
+.Omg {
+    margin-left: 780px;
+    margin-top: 42px;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    width: 234px;
+    height: 40px;
+    border: 2px solid rgb(255, 81, 12);
+    border-radius: 20px;
+    background-color: #100F12;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#myUL:hover:not(.header) {
+    background-color: #eee;
+}
+
+.checkbox_select_anchor {
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 10px 5px 5px;
+    position: relative;
+}
+
+#myDIV {
+    position: absolute;
+    left: 990px;
+    top: 55px;
+    color: #E78A00;
+}
+
+select {
+    position: absolute;
+    left: 580px;
+    top: 52px;
+}
+
+#aria {
+    position: absolute;
+    left: 480px;
+    top: 52px;
+}
+
+#soft {
+    position: absolute;
+    left: 380px;
+    top: 52px;
+}
+
+strong {
+    position: absolute;
+    left: 1108px;
+    top: 52px;
+    color: #e78a00;
+}
+
+#cart {
+    position: absolute;
+    left: 1208px;
+    top: 52px;
+    color: #e78a00;
+}
+
+// #cover {
+//     position: absolute;
+//     width: 1440px;
+//     height: 655px;
+//     left: 0px;
+//     top: 0px;
+//     background: #4D4D4D;
+// }
+
+#cart-img {
+    position: absolute;
+    width: 566px;
+    height: 566px;
+    left: 840px;
+    top: 58px;
+}
+// #Elect{
+//     color: white;
+// }
+h1{
+    margin-top: 60px;
+    color: white;
+}
+#link-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+}
+.active{
+    color: black;
+}

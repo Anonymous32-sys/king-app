@@ -1,0 +1,16 @@
+.carousel {
+    border-radius: 1em !important;
+    margin: 1em 0 !important;
+    display: flex;
+        justify-content: center;
+}
+
+.thumb {
+    border-radius: 1em;
+}
+#link-icons{
+    display: flex;
+}
+.active{
+    color: black;
+}
