@@ -1,0 +1,20 @@
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgreen;
+}
+.Flex1-Img{
+    width: 200px;
+    border-radius: 50%;
+}
+.Company-Name{
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}
+.Extras{
+    word-spacing: 10px;
+    letter-spacing:5px; 
+}
+.line{
+    height: 40px;
+}
